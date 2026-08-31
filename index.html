@@ -1,10 +1,60 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My GitHub Website</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-    <p>Welcome to my brand new website hosted on GitHub Pages.</p>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Les Dérailleurs website. Music, bio, and live show history."
+    />
+    <title>Les Dérailleurs</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Les Dérailleurs home">
+          <img src="derailleurs-logo.jpg" alt="Les Dérailleurs logo" class="brand-logo" />
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="bio.html">Bio</a>
+          <a href="music.html">Music</a>
+          <a href="shows.html">Shows</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <h1>Les Dérailleurs</h1>
+            <div class="hero-links">
+              <a class="button button-primary" href="shows.html">Shows</a>
+              <a class="button button-secondary" href="music.html">Listen to the music</a>
+            </div>
+          </div>
+
+          <figure class="hero-image">
+            <img src="derailleurs-iron-horse.jpg" alt="Les Dérailleurs performing live on stage" />
+          </figure>
+        </section>
+
+        <section class="info-grid" aria-label="Quick links">
+          <a class="info-card" href="bio.html">
+            <h2>Bio</h2>
+            <p>A short introduction to the band and what they’re about.</p>
+          </a>
+          <a class="info-card" href="music.html">
+            <h2>Music</h2>
+            <p>Links to releases, streaming platforms, or embedded tracks.</p>
+          </a>
+          <a class="info-card" href="shows.html">
+            <h2>Shows</h2>
+            <p>Past dates and venues. Check back for upcoming shows.</p>
+          </a>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
