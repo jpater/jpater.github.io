@@ -136,38 +136,12 @@ h1 {
   font-size: 1.06rem;
 }
 
-.hero-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 26px;
-}
-
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 46px;
-  padding: 0 18px;
-  border-radius: 999px;
-  border: 1px solid transparent;
-  font-weight: 700;
-  transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease;
-}
-
-.button:hover,
-.button:focus-visible {
-  transform: translateY(-1px);
-}
-
-.button-primary {
-  color: #1b1205;
-  background: linear-gradient(135deg, #ffdba7, var(--accent));
-}
-
-.button-secondary {
-  border-color: var(--line);
-  background: rgba(255, 255, 255, 0.04);
+.hero-tagline {
+  margin-top: 18px;
+  max-width: 32rem;
+  color: var(--muted);
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  line-height: 1.4;
 }
 
 .hero-image {
